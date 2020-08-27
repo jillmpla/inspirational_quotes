@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-image: url(image/1.jpg);
+    background-repeat: no-repeat;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*styles heading 1 (h1)*/
+.content h1 {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-shadow: 10px 10px 300px #000; /*hori, vert, blur*/
+    font-size: 500%;
+}
+
+input.aButton {
+    font-family: sans-serif;
+    background-color: Transparent;
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    color: #fff;
+    font-size: 150%;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    text-shadow: 10px 10px 300px #000; /*hori, vert, blur*/
+}
+
+input.aButton:focus /*retains white outline even after clicks*/
+{
+    outline:none;
+}
+
+input.aButton:hover
+{
+    opacity: 1.00;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#quoteD {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-shadow: 10px 10px 100px #000; /*hori, vert, blur*/
+    font-size: 250%;
+}
+
+/*style for mobile and tablet devices*/
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 250%
+    }
+
+    input.aButton {
+        width: 85px;
+        padding: 5px;
+        font-size: 85%;
+    }
+
+    #quoteD {
+        font-size: 125%;
+        line-height: 100%;
+    }
+}
