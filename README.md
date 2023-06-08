@@ -1,3 +1,3 @@
 # Inspirational Quotes
 
-Hosted live at - www.someinspirationalquotes.com
+www.someinspirationalquotes.com
