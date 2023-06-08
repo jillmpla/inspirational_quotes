@@ -1,1 +1,1 @@
-# random_quotes
+# Inspirational Quotes
